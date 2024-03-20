@@ -1,15 +1,29 @@
+@font-face {
+  font-family: "Impact";
+  src: url(./impact.ttf);
+}
+
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-image: url(./img/background.jpg);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(./img/background.jpg);
+
+  font-family: Impact;
+  font-size: 30px;
+  color: blueviolet;
 }
 
 .container {
-    max-width: 1000px;
-    min-height: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: beige;
-    padding: 60px;
+  max-width: 1000px;
+  min-height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: beige;
+  padding: 40px;
+}
+
+body h1 {
+  font-size: 60px;
+  color: black;
 }
